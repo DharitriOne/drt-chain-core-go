@@ -8,15 +8,15 @@ protoc \
     --gogoslick_out="$PWD/data/batch" \
     $PWD/data/batch/*.proto
 
-# data/dct
+# data/dcdt
 protoc \
     -I="$HOME/go/src" \
     -I="$HOME/go/src/github.com/DharitriOne/protobuf" \
-    -I="$PWD/data/dct" \
-    --gogoslick_out="$PWD/data/dct" \
-    $PWD/data/dct/proto/dct.proto
+    -I="$PWD/data/dcdt" \
+    --gogoslick_out="$PWD/data/dcdt" \
+    $PWD/data/dcdt/proto/dcdt.proto
 
-mv $PWD/data/dct/proto/dct.pb.go $PWD/data/dct/
+mv $PWD/data/dcdt/proto/dcdt.pb.go $PWD/data/dcdt/
 
 # data/guardians
 protoc \

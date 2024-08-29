@@ -55,70 +55,70 @@ const BuiltInFunctionSetUserName = "SetUserName"
 // BuiltInFunctionSaveKeyValue is the key for the save key value built-in function
 const BuiltInFunctionSaveKeyValue = "SaveKeyValue"
 
-// BuiltInFunctionDCTTransfer is the key for the electronic standard digital token transfer built-in function
-const BuiltInFunctionDCTTransfer = "DCTTransfer"
+// BuiltInFunctionDCDTTransfer is the key for the electronic standard digital token transfer built-in function
+const BuiltInFunctionDCDTTransfer = "DCDTTransfer"
 
-// BuiltInFunctionDCTBurn is the key for the electronic standard digital token burn built-in function
-const BuiltInFunctionDCTBurn = "DCTBurn"
+// BuiltInFunctionDCDTBurn is the key for the electronic standard digital token burn built-in function
+const BuiltInFunctionDCDTBurn = "DCDTBurn"
 
-// BuiltInFunctionDCTFreeze is the key for the electronic standard digital token freeze built-in function
-const BuiltInFunctionDCTFreeze = "DCTFreeze"
+// BuiltInFunctionDCDTFreeze is the key for the electronic standard digital token freeze built-in function
+const BuiltInFunctionDCDTFreeze = "DCDTFreeze"
 
-// BuiltInFunctionDCTUnFreeze is the key for the electronic standard digital token unfreeze built-in function
-const BuiltInFunctionDCTUnFreeze = "DCTUnFreeze"
+// BuiltInFunctionDCDTUnFreeze is the key for the electronic standard digital token unfreeze built-in function
+const BuiltInFunctionDCDTUnFreeze = "DCDTUnFreeze"
 
-// BuiltInFunctionDCTWipe is the key for the electronic standard digital token wipe built-in function
-const BuiltInFunctionDCTWipe = "DCTWipe"
+// BuiltInFunctionDCDTWipe is the key for the electronic standard digital token wipe built-in function
+const BuiltInFunctionDCDTWipe = "DCDTWipe"
 
-// BuiltInFunctionDCTPause is the key for the electronic standard digital token pause built-in function
-const BuiltInFunctionDCTPause = "DCTPause"
+// BuiltInFunctionDCDTPause is the key for the electronic standard digital token pause built-in function
+const BuiltInFunctionDCDTPause = "DCDTPause"
 
-// BuiltInFunctionDCTUnPause is the key for the electronic standard digital token unpause built-in function
-const BuiltInFunctionDCTUnPause = "DCTUnPause"
+// BuiltInFunctionDCDTUnPause is the key for the electronic standard digital token unpause built-in function
+const BuiltInFunctionDCDTUnPause = "DCDTUnPause"
 
-// BuiltInFunctionSetDCTRole is the key for the electronic standard digital token set built-in function
-const BuiltInFunctionSetDCTRole = "DCTSetRole"
+// BuiltInFunctionSetDCDTRole is the key for the electronic standard digital token set built-in function
+const BuiltInFunctionSetDCDTRole = "DCDTSetRole"
 
-// BuiltInFunctionUnSetDCTRole is the key for the electronic standard digital token unset built-in function
-const BuiltInFunctionUnSetDCTRole = "DCTUnSetRole"
+// BuiltInFunctionUnSetDCDTRole is the key for the electronic standard digital token unset built-in function
+const BuiltInFunctionUnSetDCDTRole = "DCDTUnSetRole"
 
-// BuiltInFunctionDCTSetLimitedTransfer is the key for the electronic standard digital token built-in function which sets the property
+// BuiltInFunctionDCDTSetLimitedTransfer is the key for the electronic standard digital token built-in function which sets the property
 // for the token to be transferable only through accounts with transfer roles
-const BuiltInFunctionDCTSetLimitedTransfer = "DCTSetLimitedTransfer"
+const BuiltInFunctionDCDTSetLimitedTransfer = "DCDTSetLimitedTransfer"
 
-// BuiltInFunctionDCTUnSetLimitedTransfer is the key for the electronic standard digital token built-in function which unsets the property
+// BuiltInFunctionDCDTUnSetLimitedTransfer is the key for the electronic standard digital token built-in function which unsets the property
 // for the token to be transferable only through accounts with transfer roles
-const BuiltInFunctionDCTUnSetLimitedTransfer = "DCTUnSetLimitedTransfer"
+const BuiltInFunctionDCDTUnSetLimitedTransfer = "DCDTUnSetLimitedTransfer"
 
-// BuiltInFunctionDCTLocalMint is the key for the electronic standard digital token local mint built-in function
-const BuiltInFunctionDCTLocalMint = "DCTLocalMint"
+// BuiltInFunctionDCDTLocalMint is the key for the electronic standard digital token local mint built-in function
+const BuiltInFunctionDCDTLocalMint = "DCDTLocalMint"
 
-// BuiltInFunctionDCTLocalBurn is the key for the electronic standard digital token local burn built-in function
-const BuiltInFunctionDCTLocalBurn = "DCTLocalBurn"
+// BuiltInFunctionDCDTLocalBurn is the key for the electronic standard digital token local burn built-in function
+const BuiltInFunctionDCDTLocalBurn = "DCDTLocalBurn"
 
-// BuiltInFunctionDCTNFTTransfer is the key for the electronic standard digital token NFT transfer built-in function
-const BuiltInFunctionDCTNFTTransfer = "DCTNFTTransfer"
+// BuiltInFunctionDCDTNFTTransfer is the key for the electronic standard digital token NFT transfer built-in function
+const BuiltInFunctionDCDTNFTTransfer = "DCDTNFTTransfer"
 
-// BuiltInFunctionDCTNFTCreate is the key for the electronic standard digital token NFT create built-in function
-const BuiltInFunctionDCTNFTCreate = "DCTNFTCreate"
+// BuiltInFunctionDCDTNFTCreate is the key for the electronic standard digital token NFT create built-in function
+const BuiltInFunctionDCDTNFTCreate = "DCDTNFTCreate"
 
-// BuiltInFunctionDCTNFTAddQuantity is the key for the electronic standard digital token NFT add quantity built-in function
-const BuiltInFunctionDCTNFTAddQuantity = "DCTNFTAddQuantity"
+// BuiltInFunctionDCDTNFTAddQuantity is the key for the electronic standard digital token NFT add quantity built-in function
+const BuiltInFunctionDCDTNFTAddQuantity = "DCDTNFTAddQuantity"
 
-// BuiltInFunctionDCTNFTCreateRoleTransfer is the key for the electronic standard digital token create role transfer function
-const BuiltInFunctionDCTNFTCreateRoleTransfer = "DCTNFTCreateRoleTransfer"
+// BuiltInFunctionDCDTNFTCreateRoleTransfer is the key for the electronic standard digital token create role transfer function
+const BuiltInFunctionDCDTNFTCreateRoleTransfer = "DCDTNFTCreateRoleTransfer"
 
-// BuiltInFunctionDCTNFTBurn is the key for the electronic standard digital token NFT burn built-in function
-const BuiltInFunctionDCTNFTBurn = "DCTNFTBurn"
+// BuiltInFunctionDCDTNFTBurn is the key for the electronic standard digital token NFT burn built-in function
+const BuiltInFunctionDCDTNFTBurn = "DCDTNFTBurn"
 
-// BuiltInFunctionDCTNFTAddURI is the key for the electronic standard digital token NFT add URI built-in function
-const BuiltInFunctionDCTNFTAddURI = "DCTNFTAddURI"
+// BuiltInFunctionDCDTNFTAddURI is the key for the electronic standard digital token NFT add URI built-in function
+const BuiltInFunctionDCDTNFTAddURI = "DCDTNFTAddURI"
 
-// BuiltInFunctionDCTNFTUpdateAttributes is the key for the electronic standard digital token NFT update attributes built-in function
-const BuiltInFunctionDCTNFTUpdateAttributes = "DCTNFTUpdateAttributes"
+// BuiltInFunctionDCDTNFTUpdateAttributes is the key for the electronic standard digital token NFT update attributes built-in function
+const BuiltInFunctionDCDTNFTUpdateAttributes = "DCDTNFTUpdateAttributes"
 
-// BuiltInFunctionMultiDCTNFTTransfer is the key for the electronic standard digital token multi transfer built-in function
-const BuiltInFunctionMultiDCTNFTTransfer = "MultiDCTNFTTransfer"
+// BuiltInFunctionMultiDCDTNFTTransfer is the key for the electronic standard digital token multi transfer built-in function
+const BuiltInFunctionMultiDCDTNFTTransfer = "MultiDCDTNFTTransfer"
 
 // BuiltInFunctionSetGuardian is the key for setting a guardian built-in function
 const BuiltInFunctionSetGuardian = "SetGuardian"
@@ -132,51 +132,51 @@ const BuiltInFunctionUnGuardAccount = "UnGuardAccount"
 // BuiltInFunctionMigrateDataTrie is the built-in function key for migrating the data trie
 const BuiltInFunctionMigrateDataTrie = "MigrateDataTrie"
 
-// DCTRoleLocalMint is the constant string for the local role of mint for DCT tokens
-const DCTRoleLocalMint = "DCTRoleLocalMint"
+// DCDTRoleLocalMint is the constant string for the local role of mint for DCDT tokens
+const DCDTRoleLocalMint = "DCDTRoleLocalMint"
 
-// DCTRoleLocalBurn is the constant string for the local role of burn for DCT tokens
-const DCTRoleLocalBurn = "DCTRoleLocalBurn"
+// DCDTRoleLocalBurn is the constant string for the local role of burn for DCDT tokens
+const DCDTRoleLocalBurn = "DCDTRoleLocalBurn"
 
-// DCTRoleNFTCreate is the constant string for the local role of create for DCT NFT tokens
-const DCTRoleNFTCreate = "DCTRoleNFTCreate"
+// DCDTRoleNFTCreate is the constant string for the local role of create for DCDT NFT tokens
+const DCDTRoleNFTCreate = "DCDTRoleNFTCreate"
 
-// DCTRoleNFTCreateMultiShard is the constant string for the local role of create for DCT NFT tokens multishard
-const DCTRoleNFTCreateMultiShard = "DCTRoleNFTCreateMultiShard"
+// DCDTRoleNFTCreateMultiShard is the constant string for the local role of create for DCDT NFT tokens multishard
+const DCDTRoleNFTCreateMultiShard = "DCDTRoleNFTCreateMultiShard"
 
-// DCTRoleNFTAddQuantity is the constant string for the local role of adding quantity for existing DCT NFT tokens
-const DCTRoleNFTAddQuantity = "DCTRoleNFTAddQuantity"
+// DCDTRoleNFTAddQuantity is the constant string for the local role of adding quantity for existing DCDT NFT tokens
+const DCDTRoleNFTAddQuantity = "DCDTRoleNFTAddQuantity"
 
-// DCTRoleNFTBurn is the constant string for the local role of burn for DCT NFT tokens
-const DCTRoleNFTBurn = "DCTRoleNFTBurn"
+// DCDTRoleNFTBurn is the constant string for the local role of burn for DCDT NFT tokens
+const DCDTRoleNFTBurn = "DCDTRoleNFTBurn"
 
-// DCTRoleNFTAddURI is the constant string for the local role of adding a URI for DCT NFT tokens
-const DCTRoleNFTAddURI = "DCTRoleNFTAddURI"
+// DCDTRoleNFTAddURI is the constant string for the local role of adding a URI for DCDT NFT tokens
+const DCDTRoleNFTAddURI = "DCDTRoleNFTAddURI"
 
-// DCTRoleNFTUpdateAttributes is the constant string for the local role of updating attributes for DCT NFT tokens
-const DCTRoleNFTUpdateAttributes = "DCTRoleNFTUpdateAttributes"
+// DCDTRoleNFTUpdateAttributes is the constant string for the local role of updating attributes for DCDT NFT tokens
+const DCDTRoleNFTUpdateAttributes = "DCDTRoleNFTUpdateAttributes"
 
-// DCTRoleTransfer is the constant string for the local role to transfer DCT, only for special tokens
-const DCTRoleTransfer = "DCTTransferRole"
+// DCDTRoleTransfer is the constant string for the local role to transfer DCDT, only for special tokens
+const DCDTRoleTransfer = "DCDTTransferRole"
 
-// DCTType defines the possible types in case of DCT tokens
-type DCTType uint32
+// DCDTType defines the possible types in case of DCDT tokens
+type DCDTType uint32
 
 const (
-	// Fungible defines the token type for DCT fungible tokens
-	Fungible DCTType = iota
-	// NonFungible defines the token type for DCT non fungible tokens
+	// Fungible defines the token type for DCDT fungible tokens
+	Fungible DCDTType = iota
+	// NonFungible defines the token type for DCDT non fungible tokens
 	NonFungible
 )
 
-// FungibleDCT defines the string for the token type of fungible DCT
-const FungibleDCT = "FungibleDCT"
+// FungibleDCDT defines the string for the token type of fungible DCDT
+const FungibleDCDT = "FungibleDCDT"
 
-// NonFungibleDCT defines the string for the token type of non fungible DCT
-const NonFungibleDCT = "NonFungibleDCT"
+// NonFungibleDCDT defines the string for the token type of non fungible DCDT
+const NonFungibleDCDT = "NonFungibleDCDT"
 
-// SemiFungibleDCT defines the string for the token type of semi fungible DCT
-const SemiFungibleDCT = "SemiFungibleDCT"
+// SemiFungibleDCDT defines the string for the token type of semi fungible DCDT
+const SemiFungibleDCDT = "SemiFungibleDCDT"
 
 // MaxRoyalty defines 100% as uint32
 const MaxRoyalty = uint32(10000)
@@ -196,14 +196,14 @@ const ProtectedKeyPrefix = "E" + "L" + "R" + "O" + "N" + "D"
 // DelegationSystemSCKey is the key under which there is data in case of system delegation smart contracts
 const DelegationSystemSCKey = "delegation"
 
-// DCTKeyIdentifier is the key prefix for dct tokens
-const DCTKeyIdentifier = "dct"
+// DCDTKeyIdentifier is the key prefix for dcdt tokens
+const DCDTKeyIdentifier = "dcdt"
 
-// DCTRoleIdentifier is the key prefix for dct role identifier
-const DCTRoleIdentifier = "role"
+// DCDTRoleIdentifier is the key prefix for dcdt role identifier
+const DCDTRoleIdentifier = "role"
 
-// DCTNFTLatestNonceIdentifier is the key prefix for dct latest nonce identifier
-const DCTNFTLatestNonceIdentifier = "nonce"
+// DCDTNFTLatestNonceIdentifier is the key prefix for dcdt latest nonce identifier
+const DCDTNFTLatestNonceIdentifier = "nonce"
 
 // GuardiansKeyIdentifier is the key prefix for guardians
 const GuardiansKeyIdentifier = "guardians"
@@ -225,14 +225,14 @@ const MaxBufferSizeToSendTrieNodes = 1 << 18 //256KB
 // MaxUserNameLength represents the maximum number of bytes a UserName can have
 const MaxUserNameLength = 32
 
-// MinLenArgumentsDCTTransfer defines the min length of arguments for the DCT transfer
-const MinLenArgumentsDCTTransfer = 2
+// MinLenArgumentsDCDTTransfer defines the min length of arguments for the DCDT transfer
+const MinLenArgumentsDCDTTransfer = 2
 
-// MinLenArgumentsDCTNFTTransfer defines the minimum length for dct nft transfer
-const MinLenArgumentsDCTNFTTransfer = 4
+// MinLenArgumentsDCDTNFTTransfer defines the minimum length for dcdt nft transfer
+const MinLenArgumentsDCDTNFTTransfer = 4
 
-// MaxLenForDCTIssueMint defines the maximum length in bytes for the issued/minted balance
-const MaxLenForDCTIssueMint = 100
+// MaxLenForDCDTIssueMint defines the maximum length in bytes for the issued/minted balance
+const MaxLenForDCDTIssueMint = 100
 
 // BaseOperationCostString represents the field name for base operation costs
 const BaseOperationCostString = "BaseOperationCost"
@@ -240,8 +240,8 @@ const BaseOperationCostString = "BaseOperationCost"
 // BuiltInCostString represents the field name for built in operation costs
 const BuiltInCostString = "BuiltInCost"
 
-// DCTSCAddress is the hard-coded address for dct issuing smart contract
-var DCTSCAddress = []byte{0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 255, 255}
+// DCDTSCAddress is the hard-coded address for dcdt issuing smart contract
+var DCDTSCAddress = []byte{0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 255, 255}
 
 // SCDeployIdentifier is the identifier for a smart contract deploy
 const SCDeployIdentifier = "SCDeploy"
@@ -249,7 +249,7 @@ const SCDeployIdentifier = "SCDeploy"
 // SCUpgradeIdentifier is the identifier for a smart contract upgrade
 const SCUpgradeIdentifier = "SCUpgrade"
 
-// WriteLogIdentifier is the identifier for the information log that is generated by a smart contract call/dct transfer
+// WriteLogIdentifier is the identifier for the information log that is generated by a smart contract call/dcdt transfer
 const WriteLogIdentifier = "writeLog"
 
 // SignalErrorOperation is the identifier for the log that is generated when a smart contract is executed but return an error

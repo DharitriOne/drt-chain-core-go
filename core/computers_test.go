@@ -459,7 +459,7 @@ func BenchmarkGetApproximatePercentageOfValue(b *testing.B) {
 	}
 }
 
-func TestIsValidDCTRole(t *testing.T) {
+func TestIsValidDCDTRole(t *testing.T) {
 	t.Parallel()
 
 	tests := []struct {
@@ -467,27 +467,27 @@ func TestIsValidDCTRole(t *testing.T) {
 		output bool
 	}{
 		{
-			input:  core.DCTRoleLocalMint,
+			input:  core.DCDTRoleLocalMint,
 			output: true,
 		},
 		{
-			input:  core.DCTRoleLocalBurn,
+			input:  core.DCDTRoleLocalBurn,
 			output: true,
 		},
 		{
-			input:  core.DCTRoleNFTCreate,
+			input:  core.DCDTRoleNFTCreate,
 			output: true,
 		},
 		{
-			input:  core.DCTRoleNFTAddQuantity,
+			input:  core.DCDTRoleNFTAddQuantity,
 			output: true,
 		},
 		{
-			input:  core.DCTRoleNFTBurn,
+			input:  core.DCDTRoleNFTBurn,
 			output: true,
 		},
 		{
-			input:  "dctRoleLocalMint",
+			input:  "dcdtRoleLocalMint",
 			output: false,
 		},
 		{
@@ -501,7 +501,7 @@ func TestIsValidDCTRole(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		require.Equal(t, tt.output, core.IsValidDCTRole(tt.input))
+		require.Equal(t, tt.output, core.IsValidDCDTRole(tt.input))
 	}
 }
 

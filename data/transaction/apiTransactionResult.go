@@ -52,7 +52,7 @@ type ApiTransactionResult struct {
 	Logs                              *ApiLogs                  `json:"logs,omitempty"`
 	Status                            TxStatus                  `json:"status,omitempty"`
 	Tokens                            []string                  `json:"tokens,omitempty"`
-	DCTValues                         []string                  `json:"dctValues,omitempty"`
+	DCDTValues                        []string                  `json:"dcdtValues,omitempty"`
 	Receivers                         []string                  `json:"receivers,omitempty"`
 	ReceiversShardIDs                 []uint32                  `json:"receiversShardIDs,omitempty"`
 	Operation                         string                    `json:"operation,omitempty"`
@@ -92,7 +92,7 @@ type ApiSmartContractResult struct {
 	OriginalSender    string      `json:"originalSender,omitempty"`
 	Logs              *ApiLogs    `json:"logs,omitempty"`
 	Tokens            []string    `json:"tokens,omitempty"`
-	DCTValues         []string    `json:"dctValues,omitempty"`
+	DCDTValues        []string    `json:"dcdtValues,omitempty"`
 	Receivers         []string    `json:"receivers,omitempty"`
 	ReceiversShardIDs []uint32    `json:"receiversShardIDs,omitempty"`
 	Operation         string      `json:"operation,omitempty"`

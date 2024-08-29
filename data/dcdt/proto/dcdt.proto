@@ -3,13 +3,13 @@ syntax = "proto3";
 
 package protoBuiltInFunctions;
 
-option go_package = "dct";
+option go_package = "dcdt";
 option (gogoproto.stable_marshaler_all) = true;
 
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 
-// DCToken holds the data for a Dharitri Core Token transaction
-message DCToken {
+// DCDigitalToken holds the data for a Dharitri Core Token transaction
+message DCDigitalToken {
 	uint32 Type            = 1 [(gogoproto.jsontag) = "Type"];
 	bytes  Value           = 2 [(gogoproto.jsontag) = "Value", (gogoproto.casttypewith) = "math/big.Int;github.com/DharitriOne/drt-chain-core-go/data.BigIntCaster"];
 	bytes  Properties      = 3 [(gogoproto.jsontag) = "Properties"];
@@ -17,12 +17,12 @@ message DCToken {
 	bytes  Reserved        = 5 [(gogoproto.jsontag) = "Reserved"];
 }
 
-// DCTRoles holds the roles for a given token and the given address
-message DCTRoles {
+// DCDTRoles holds the roles for a given token and the given address
+message DCDTRoles {
 	repeated bytes Roles = 1 [(gogoproto.jsontag) = "roles"];
 }
 
-// MetaData hold the metadata structure for the DCT token
+// MetaData hold the metadata structure for the DCDT token
 message MetaData {
 	uint64 Nonce         = 1 [(gogoproto.jsontag) = "Nonce"];
 	bytes  Name          = 2 [(gogoproto.jsontag) = "Name"];

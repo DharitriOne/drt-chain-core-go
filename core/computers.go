@@ -175,11 +175,11 @@ func SafeAddUint64(a, b uint64) (uint64, error) {
 	return 0, ErrAdditionOverflow
 }
 
-// IsValidDCTRole returns true if the input string represents a valid DCT role
-func IsValidDCTRole(role string) bool {
+// IsValidDCDTRole returns true if the input string represents a valid DCDT role
+func IsValidDCDTRole(role string) bool {
 	switch role {
-	case DCTRoleNFTCreate, DCTRoleNFTAddQuantity, DCTRoleNFTBurn, DCTRoleLocalMint, DCTRoleLocalBurn, DCTRoleNFTUpdateAttributes,
-		DCTRoleNFTAddURI, DCTRoleTransfer:
+	case DCDTRoleNFTCreate, DCDTRoleNFTAddQuantity, DCDTRoleNFTBurn, DCDTRoleLocalMint, DCDTRoleLocalBurn, DCDTRoleNFTUpdateAttributes,
+		DCDTRoleNFTAddURI, DCDTRoleTransfer:
 		return true
 	default:
 		return false
